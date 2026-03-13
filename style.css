@@ -9,6 +9,7 @@ body{
         color: #0e0e0e;
     font-family: "Inter Tight", sans-serif;
 }
+<<<<<<< HEAD
 #dv_mot{
     background-color: rgb(77, 211, 255);
     border-radius: 20px;
@@ -77,3 +78,9 @@ body{
     }
 }
 
+=======
+
+body > *{
+    padding: 12px;
+}
+>>>>>>> 36696b655fb6d6fb705d56eb8d175763c6e18408
