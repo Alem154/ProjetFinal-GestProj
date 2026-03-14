@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage[dvipsnames]{xcolor}
-\usepackage[margin=1.5cm]{geometry} %Au lieu de 1.5cm ? Tu aimes mieux comme ça mon chouchou (anciennement 2.5cm)?
+\usepackage[margin=2.5cm]{geometry} %Au lieu de 1.5cm ? Tu aimes mieux comme ça mon chouchou (anciennement 2.5cm)?
 \usepackage{hyperref}
 
 \title{Gestion de Projet Informatique - Mise en situation - TD003}
@@ -11,6 +11,8 @@
 \begin{document}
 
 \maketitle
+
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{Green}[A1] Constitution d'un groupe} %ajout d'une étoile après "section" pour retirer la numérotation automatique
 \begin{center}
@@ -30,30 +32,33 @@ Nous faisons tous les quatre partis de l'organisation \href{https://github.com/G
     \label{fig:mb-orga-GH}
 \end{figure}
 
- 
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{Green}[A2] Dépôt Git en ligne}
 Lien du dépôt en ligne : \url{https://github.com/GestProjTD3-HARM/ProjetFinal-GestProj}\newpage
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.5\textwidth]{Repository.png}
+    \includegraphics[width=0.7\textwidth]{Repository.png}
     \caption{Le dépôt du mini-projet}
 \end{figure}
 Grâce à ce dépôt l'équipe peut facilement échanger leurs ajouts de façon pratique et immédiate,... %Restitution du cours
 \\Les étapes suivantes seront plus orientées vers la construction d'un environnements GitHub profitant d'un maximum de ces fonctions
 
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{Green}[A3] Intégration des contributions}
 Les premiers commits, n'ayant pas encore à ce moment associés tous le monde en collaborateurs, ont un nom différent lors des commits (\ref{fig:first-commits}). %Desolé Noah enfaite c'est moi qui commit avec DES ordis diffèrents (celui du cours, celui de chez moi, une session pour chaque ordi de la salle info)
 
-Chaque membres peut push de son côtés et après verifications de la part des autres, être affectées au projet finale.
+Chaque membres peuvent \textit{push} de leur côté et après vérification de la part des autres, être affectées au projet finale.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\linewidth]{PushCommand.png}
     \includegraphics[width=0.5\linewidth]{First-commits.png}
-    \caption{Capture d'écran d'un push vers le dépôt et des premiers commits push vers le projet principale}
+    \caption{Captures d'écran d'un push vers le dépôt et des premiers commits push vers le projet principale}
     \label{fig:first-commits}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{BurntOrange}[B1] Gestion par branches}
 Je m'apprête à créer une branche pour cette version car les marges du LaTeX m'ont été proposée à 1.5cm mais je pense que 2.5cm pourrait être mieux. Pourquoi pas un entre deux, le LaTeX devra être restructuré dans le cas d'un changement de marge avant qu'un 'merge' soit fait avec la branche principale.
@@ -61,23 +66,58 @@ Je m'apprête à créer une branche pour cette version car les marges du LaTeX m
     \centering
     \includegraphics[width=0.7\linewidth]{CréationBranch.png}
     \caption{Création d'une branche pour les changements du LaTeX}
-    \label{fig:Branch_latex}
+    \label{fig:branch_latex}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{BurntOrange}[B2] Intégration de version et tag}
 
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
+
 \section*{\color{BurntOrange}[B3] Gestion des propositions de contributions}
+Nous avons utilisé les \textit{pull requests} lors de modifications majeures ou lorsque l'on préfère demander l'avis d'autres membres du groupe sur ces modifications avant l'intégration à la branche principale (\ref{fig:pll-rqst}).
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Pull-Requests.png}
+    \caption{Capture d'écran montrant les différents \textit{pull requests} efféctués lors du projet}
+    \label{fig:pll-rqst}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{BurntOrange}[B4] Intégration de site web}
 
 Lien du GitHubPages : \url{https://gestprojtd3-harm.github.io/ProjetFinal-GestProj/}
 
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
+
 \section*{\color{BrickRed}[C1] Répartition de tâches et milestone}
+Nous nous sommes essayés à l'utilisation de \textit{issues} et \textit{milestones}. Cela permet defaire comme des mini-missions temporaires (\ref{fig:issues}) qui peuvent rentrer dans des objectifs plus ou moins globaux (\ref{fig:milestone}).
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{OpenIssues.png}
+    \includegraphics[width=0.7\linewidth]{ClosedIssues.png}
+    \caption{\textit{Issues} ouverts et fermés}
+    \label{fig:issues}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{ClosedMilestones.png}
+    \caption{\textit{Milestone} fermé}
+    \label{fig:milestone}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{BrickRed}[C2] Intégration continue}
 
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
+
 \section*{\color{BrickRed}[C3] Gestion de submodule}
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \section*{\color{BrickRed}[C4] Gestion par l'outil \textit{Projet} de \textit{GitHub}}
+
+%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%
 
 \end{document}
